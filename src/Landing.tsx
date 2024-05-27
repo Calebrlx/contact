@@ -8,27 +8,27 @@ export const Landing = () => (
     <header id={style.header}>
       <img
         src={logo}
-        alt="Beer City Landscapes"
+        alt="RelixAI"
       />
     </header>
     <main id={style.main}>
-      <h1 className={style.line}>Matt Holcomb</h1>
-      <h2 className={style.line}>Proprietor</h2>
+      <h1 className={style.line}>Caleb Forestal</h1>
+      <h2 className={style.line}>Founder & CEO</h2>
 
       <h2 id={style.tel} className={style.line}>
-        <a href="tel:828-989-9904">(828)989-9904</a>
+        <a href="tel:907-406-1776">(907)406-1776</a>
       </h2>
 
       <img className={style.separator} src={separator}/>
       <h2 id={style.site} className={style.line}>
-        <a href="mailto:Beer%20City%20Landscapes%20%3CBeerCityLandscapes@GMail.com%3E">
-          beercitylandscapes&shy;@gmail.com
+        <a href="mailto:caleb@relix.ai">
+          caleb@relix.ai
         </a>
       </h2>
 
       <img className={style.separator} src={separator}/>
       <section id={style.download}>
-        <a href="/beer_city_scapes.vcf">Matt’s Contact Card</a>
+        <a href="/caleb.vcf">Caleb's Contact Card</a>
       </section>
     </main>
   </section>
